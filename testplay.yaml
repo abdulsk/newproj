@@ -1,0 +1,6 @@
+- name: Hello Ansible - quick start
+  hosts: all
+  user: osboxes
+  tasks:
+    - name: Hello server
+      shell: date >> now.txt
